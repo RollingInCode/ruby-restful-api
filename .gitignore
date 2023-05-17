@@ -1,0 +1,26 @@
+# Ignore bundler gem files
+Gemfile.lock
+
+# Ignore generated files and directories
+coverage/
+pkg/
+.ruby-version
+.ruby-gemset
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore logs and temporary files
+log/
+tmp/
+
+# Ignore database files
+/db/*.sqlite3
+
+# Ignore system-specific files
+*.swp
+.DS_Store
+Thumbs.db
